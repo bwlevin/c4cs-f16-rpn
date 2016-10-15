@@ -2,4 +2,5 @@ language: python
 python:
 - "3.5"
 script: python3 -m unittest
-  
+after_success:
+- coveralls  
